@@ -9,8 +9,9 @@ import (
 func main() {
 	msg := os.Args[1]
 	l := len(msg)
+	repeat := strings.Repeat("!", l)
 
-	s:= msg + strings.Repeat("!", l)
+	s:= repeat + msg + repeat
 	s = strings.ToUpper(s)
 
 	fmt.Println(s)
