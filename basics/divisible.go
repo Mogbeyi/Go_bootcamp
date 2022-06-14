@@ -1,4 +1,4 @@
-package main 
+package main
 
 import (
 	"fmt"
@@ -11,6 +11,7 @@ func main() {
 	num, err := strconv.Atoi(arg)
 	if err != nil {
 		fmt.Printf("%v is not a number", arg)
+		return 
 	}
 
 	if num % 2 != 0 {
