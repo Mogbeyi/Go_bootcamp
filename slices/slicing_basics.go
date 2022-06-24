@@ -64,3 +64,4 @@ func main() {
 	fmt.Println(slicedData[2:3])
 	fmt.Println(slicedData[4:])
 }
+
