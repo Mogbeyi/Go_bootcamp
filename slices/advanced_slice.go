@@ -5,7 +5,6 @@ import (
 	s "github.com/inancgumus/prettyslice"
 )
 
-
 func main() {
 	names := make([]string, 5)
 	moreNames := [...]string{"plato", "khayyam", "ptolemy"}
