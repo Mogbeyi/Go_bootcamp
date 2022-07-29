@@ -36,6 +36,7 @@ func parse(p parser, line string) (parsed result, err error) {
 		err = fmt.Errorf("wrong input: %q (line #%d)", fields[1], p.lines)
 		return
 	}
-	
-	return 
+
+	return
 }
+
