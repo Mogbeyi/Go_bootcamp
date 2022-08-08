@@ -13,5 +13,4 @@ func main() {
 
 	mobyDick.print()
 	pes.print()
-
 }
