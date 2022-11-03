@@ -39,4 +39,3 @@ func parse(p parser, line string) (parsed result, err error) {
 
 	return
 }
-
