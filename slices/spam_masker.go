@@ -45,5 +45,6 @@ func main() {
 
 		buf = append(buf, c)
 	}
+
 	fmt.Println(string(buf))
 }
